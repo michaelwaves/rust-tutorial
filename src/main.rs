@@ -1,3 +1,4 @@
+pub mod enums;
 pub mod functions;
 pub mod modules;
 pub mod ownership;
@@ -9,8 +10,8 @@ fn main() {
     //functions::my_functions::expressions();
     //functions::my_functions::control_flow();
     //ownership::ownership();
-    structs::structs();
-
+    //structs::structs();
+    enums::enums();
     //random_number_game::rng::play_game();
     //modules::eat_dish();
 }
